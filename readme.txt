@@ -1,0 +1,1 @@
+This demo use ¡¸Permission Dispatcher¡¹lib to Manager permission of Android M (API 23) or higher version.
