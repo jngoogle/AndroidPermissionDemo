@@ -26,6 +26,16 @@ import permissions.dispatcher.PermissionRequest;
 import permissions.dispatcher.RuntimePermissions;
 
 
+/**
+ * when you first download this project from git
+ * you will find Dispatcher can't work
+ * please click 「Make Project」then the project will be ready.
+ * <br>
+ * <p>
+ * you can find Dispatcher at this location(switch to Project View):
+ * <br>
+ * app->build->generated->source->apt->debug->com.example.jngoogle.androidpermission
+ */
 @RuntimePermissions
 public class MainActivity extends AppCompatActivity {
 
