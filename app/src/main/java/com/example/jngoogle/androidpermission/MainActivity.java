@@ -35,13 +35,15 @@ import permissions.dispatcher.RuntimePermissions;
  * you can find Dispatcher at this location(switch to Project View):
  * <br>
  * app->build->generated->source->apt->debug->com.example.jngoogle.androidpermission
+ *
+ * what's more, the method you use @XXX shouldn't be private!
  */
+
 @RuntimePermissions
 public class MainActivity extends AppCompatActivity {
 
-    EditText phoneNumberEt;
-    Button callBtn;
-    private final int MY_PERMISSIONS_REQUEST_CALL_PHONE = 11;
+    private EditText phoneNumberEt;
+    private Button callBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
